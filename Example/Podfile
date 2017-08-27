@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'SMSlideTransition_Example' do
-  pod 'SMSlideTransition', :path => '/Users/user/Documents/MyPods/SMSlideTransition'
+  pod 'SMSlideTransition', '~> 1.0.0'
 
   target 'SMSlideTransition_Tests' do
     inherit! :search_paths
