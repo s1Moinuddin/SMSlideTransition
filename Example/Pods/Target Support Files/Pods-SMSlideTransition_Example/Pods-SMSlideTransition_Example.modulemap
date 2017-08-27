@@ -1,0 +1,6 @@
+framework module Pods_SMSlideTransition_Example {
+  umbrella header "Pods-SMSlideTransition_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SMSlideTransition (0.1.0)
+
+DEPENDENCIES:
+  - SMSlideTransition (from `../`)
+
+EXTERNAL SOURCES:
+  SMSlideTransition:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SMSlideTransition: 0542c42a11076dd10234d5c6828a30ebb944e006
+
+PODFILE CHECKSUM: 62600f8cc3f4849da1f8ee7fd02166eb15e116d4
+
+COCOAPODS: 1.2.1

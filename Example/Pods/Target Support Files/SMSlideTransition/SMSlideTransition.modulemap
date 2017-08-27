@@ -1,0 +1,6 @@
+framework module SMSlideTransition {
+  umbrella header "SMSlideTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
