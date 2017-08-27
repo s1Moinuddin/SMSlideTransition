@@ -22,7 +22,8 @@ Custom modal transitoin for UIViewController. It presents your viewController on
                        DESC
 
   s.homepage         = 'https://github.com/s1Moinuddin/SMSlideTransition'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://cdn.rawgit.com/s1Moinuddin/SMSlideTransition/09fb6842/Screenshots/SMSlideTransition.gif',
+'https://cdn.rawgit.com/s1Moinuddin/SMSlideTransition/09fb6842/Screenshots/SMSlideTransitionInteraction.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'S.M.Moinuddin' => 'shuvn.eee@gmail.com' }
   s.source           = { :git => 'https://github.com/s1Moinuddin/SMSlideTransition.git', :tag => s.version.to_s }

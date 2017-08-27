@@ -48,12 +48,10 @@ topSlideDelegate.dimScale = 0.7
 ```swift
 topSlideDelegate.duration = 0.4
 ```
-
-
 ## Requirements
-iOS 9
-Swift 3
-Xcode 8
+    iOS 9
+    Swift 3
+    Xcode 8
 
 ## Installation
 
