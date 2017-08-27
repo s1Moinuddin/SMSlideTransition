@@ -10,11 +10,14 @@
 		092AB3C1889ED1F07BAF051F /* Pods_SMSlideTransition_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C0B3B94619E0D16224CA09 /* Pods_SMSlideTransition_Tests.framework */; };
 		49C0E047BB5B60877F402BF7 /* Pods_SMSlideTransition_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0428F210591D29276D25F1 /* Pods_SMSlideTransition_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C8D4D6F01F52F921009B508E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4D6EC1F52F921009B508E /* HomeVC.swift */; };
+		C8D4D6F11F52F921009B508E /* PrimaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4D6ED1F52F921009B508E /* PrimaryViewController.swift */; };
+		C8D4D6F21F52F921009B508E /* SecondaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4D6EE1F52F921009B508E /* SecondaryVC.swift */; };
+		C8D4D6F31F52F921009B508E /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D4D6EF1F52F921009B508E /* SettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,22 @@
 		607FACD01AFB9204008FA782 /* SMSlideTransition_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSlideTransition_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SMSlideTransition_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSlideTransition_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A9F50600AC66D82C3889C48 /* SMSlideTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SMSlideTransition.podspec; path = ../SMSlideTransition.podspec; sourceTree = "<group>"; };
-		A1D69DEC5C7B74B4F8A60AFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6A9F50600AC66D82C3889C48 /* SMSlideTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMSlideTransition.podspec; path = ../SMSlideTransition.podspec; sourceTree = "<group>"; };
+		A1D69DEC5C7B74B4F8A60AFF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A78B344C665CA3BDF6C8A7AF /* Pods-SMSlideTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSlideTransition_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMSlideTransition_Example/Pods-SMSlideTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C8D4D6EC1F52F921009B508E /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C8D4D6ED1F52F921009B508E /* PrimaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryViewController.swift; sourceTree = "<group>"; };
+		C8D4D6EE1F52F921009B508E /* SecondaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryVC.swift; sourceTree = "<group>"; };
+		C8D4D6EF1F52F921009B508E /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		D723264FFB0F67C2E8B12A1F /* Pods-SMSlideTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMSlideTransition_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMSlideTransition_Tests/Pods-SMSlideTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D7C0B3B94619E0D16224CA09 /* Pods_SMSlideTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMSlideTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D5949DBE2DAF0B2158DAC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E7D5949DBE2DAF0B2158DAC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				C8D4D6EC1F52F921009B508E /* HomeVC.swift */,
+				C8D4D6ED1F52F921009B508E /* PrimaryViewController.swift */,
+				C8D4D6EE1F52F921009B508E /* SecondaryVC.swift */,
+				C8D4D6EF1F52F921009B508E /* SettingsVC.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -215,10 +224,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R29P4K488C;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R29P4K488C;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -361,8 +372,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C8D4D6F21F52F921009B508E /* SecondaryVC.swift in Sources */,
+				C8D4D6F11F52F921009B508E /* PrimaryViewController.swift in Sources */,
+				C8D4D6F01F52F921009B508E /* HomeVC.swift in Sources */,
+				C8D4D6F31F52F921009B508E /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -496,7 +510,9 @@
 			baseConfigurationReference = 3E32358C5BDC2526A3DFE470 /* Pods-SMSlideTransition_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R29P4K488C;
 				INFOPLIST_FILE = SMSlideTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -510,7 +526,9 @@
 			baseConfigurationReference = A78B344C665CA3BDF6C8A7AF /* Pods-SMSlideTransition_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R29P4K488C;
 				INFOPLIST_FILE = SMSlideTransition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -523,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5832F144CC0288DF7F557A46 /* Pods-SMSlideTransition_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = R29P4K488C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +562,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D723264FFB0F67C2E8B12A1F /* Pods-SMSlideTransition_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = R29P4K488C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

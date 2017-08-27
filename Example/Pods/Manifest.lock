@@ -1,16 +1,16 @@
 PODS:
-  - SMSlideTransition (0.1.0)
+  - SMSlideTransition (1.0.0)
 
 DEPENDENCIES:
-  - SMSlideTransition (from `../`)
+  - SMSlideTransition (from `/Users/user/Documents/MyPods/SMSlideTransition`)
 
 EXTERNAL SOURCES:
   SMSlideTransition:
-    :path: ../
+    :path: /Users/user/Documents/MyPods/SMSlideTransition
 
 SPEC CHECKSUMS:
-  SMSlideTransition: 0542c42a11076dd10234d5c6828a30ebb944e006
+  SMSlideTransition: 01da23ca3498cea23ddde539cc60aa7f2377ec09
 
-PODFILE CHECKSUM: 62600f8cc3f4849da1f8ee7fd02166eb15e116d4
+PODFILE CHECKSUM: 460ec1cb5e568564f59974163e1fda2fc7369408
 
 COCOAPODS: 1.2.1

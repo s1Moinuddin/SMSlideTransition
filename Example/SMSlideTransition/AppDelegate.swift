@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SMSlideTransition
 //
-//  Created by s1Moinuddin on 08/27/2017.
-//  Copyright (c) 2017 s1Moinuddin. All rights reserved.
+//  Created by S.M.Moinuddin on 08/27/2017.
+//  Copyright (c) 2017 S.M.Moinuddin. All rights reserved.
 //
 
 import UIKit

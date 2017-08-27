@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17EA9ACCA03C66D2F4BDF91B17399554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		17EA9ACCA03C66D2F4BDF91B17399554 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		22725F32A29C6D80C1F56C2D3F3A8004 /* Pods-SMSlideTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC092FB1C354906B916F68329B7D51F /* Pods-SMSlideTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30E1EF0962374DDEAB12A89A76CBEB76 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A2197A99F5A15D3086E50E96FBEBC4 /* ReplaceMe.swift */; };
 		32F0C3F37BB43E912B8E9EA9BD67A745 /* Pods-SMSlideTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F37ACE787D881C29C2536BD2613E53 /* Pods-SMSlideTransition_Tests-dummy.m */; };
-		45645258D50F034EFC9E0CEDEAE5BB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		45645258D50F034EFC9E0CEDEAE5BB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4DEC3B2F71B50BAAE3DA66999AFC54A9 /* SMSlidePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F6A32E028D0C1097396544B0592AD6 /* SMSlidePresentationController.swift */; };
 		5FA5EB3F3AC1F17D0F86DDB07D818D94 /* Pods-SMSlideTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 655190DF7E2E86FCE545F0F4B232A5CE /* Pods-SMSlideTransition_Example-dummy.m */; };
-		9A874157FDB4AD063B121E2E98218A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BEB6647C6DC2F084B014FAA4C6A42732 /* SMSlideTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17497B3D5DC70C4A30C522E582C90A5B /* SMSlideTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C391FCDB551F3C298A857F57186A49AB /* SMSlideTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CFB2BFCE963F253C83061C26D912E2 /* SMSlideTransition-dummy.m */; };
+		63A331813CF9106CAA1735092C839E9F /* SlideTransitionAnimatorDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0505845CC37E4FF067C93C57EDC69C8 /* SlideTransitionAnimatorDismiss.swift */; };
+		68597C8E0B96A8EECEBBC566B37648CA /* SMSlideTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0996D4F1B70B20713B26B5FF0A77444 /* SMSlideTransition-dummy.m */; };
+		68A0E6C87EC008A64220025C0C568BA9 /* SMSlideTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A97A386AC8D596E2BF23C3B3E3171B /* SMSlideTransitionDelegate.swift */; };
+		93058CF552ED2DDE46055F17426DA0A9 /* BaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A750B7BD59C72E2B029F2FA6F2AAF653 /* BaseAnimator.swift */; };
+		96C393EBA9B3C5C5FDA6BA290D174242 /* UIPanGesture+Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C54529EDF7B4D5FBC7D7B87DDC5E0B /* UIPanGesture+Direction.swift */; };
+		BEB6647C6DC2F084B014FAA4C6A42732 /* SMSlideTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 677BAA1ED4A4784D8FA969A8EE899D18 /* SMSlideTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0DCBDA4FE975DDA3F8A30CED9C73A91 /* SlideTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8956DFBFAB14A536D2B9ED5A39F0822 /* SlideTransitionAnimator.swift */; };
 		D61AF12533204CD48A818E8BDC286E37 /* Pods-SMSlideTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF3B8157BC341B68FC699BD5171CC8C4 /* Pods-SMSlideTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1BC40E6996DD109170D78051B2928C0 /* SMSlideDismissInteractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2E0AB20E25D1E1A93095E0DB1A8379 /* SMSlideDismissInteractionController.swift */; };
+		E5662DF429A452E54ACC0C934242D0E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F36D9370F06AB68A2A32CF054DFB9E33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +38,13 @@
 
 /* Begin PBXFileReference section */
 		016CB17EC3C90B53B878AE05A39F4DCB /* Pods-SMSlideTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMSlideTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		17497B3D5DC70C4A30C522E582C90A5B /* SMSlideTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSlideTransition-umbrella.h"; sourceTree = "<group>"; };
-		17E80392C575FF644E03BFD4FDA9BD3C /* SMSlideTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SMSlideTransition.modulemap; sourceTree = "<group>"; };
+		02C54529EDF7B4D5FBC7D7B87DDC5E0B /* UIPanGesture+Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIPanGesture+Direction.swift"; sourceTree = "<group>"; };
 		1BB052358A97CA869CFBE5C5B8D0B86B /* Pods-SMSlideTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SMSlideTransition_Tests.modulemap"; sourceTree = "<group>"; };
 		1DF796ACC01868C314DAF4950A6CF695 /* Pods-SMSlideTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSlideTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
 		1E94883674383D90688539A7A46F4B21 /* SMSlideTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMSlideTransition.framework; path = SMSlideTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AD7C5E7D9F6E8B4A73448E0DCB8EAC2 /* Pods-SMSlideTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSlideTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2FA24AB54D8755C5626EF41BC4893FAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32F6A32E028D0C1097396544B0592AD6 /* SMSlidePresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SMSlidePresentationController.swift; sourceTree = "<group>"; };
 		3A4F8C88BD0F7C293C015295A3115079 /* Pods-SMSlideTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSlideTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		49A8A8C8ADEE82121338863101873B4C /* Pods-SMSlideTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMSlideTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D34A47DA550F6BA0A56724BF859A15E /* Pods-SMSlideTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSlideTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,24 +52,30 @@
 		54881E837EDA0A744D0CDAAA2AF7D71D /* Pods-SMSlideTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMSlideTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		59F37ACE787D881C29C2536BD2613E53 /* Pods-SMSlideTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSlideTransition_Tests-dummy.m"; sourceTree = "<group>"; };
 		655190DF7E2E86FCE545F0F4B232A5CE /* Pods-SMSlideTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMSlideTransition_Example-dummy.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		677BAA1ED4A4784D8FA969A8EE899D18 /* SMSlideTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSlideTransition-umbrella.h"; sourceTree = "<group>"; };
+		6A7D9337134D803A6FC04B85F9BC5721 /* SMSlideTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSlideTransition-prefix.pch"; sourceTree = "<group>"; };
 		7BEB66ABA6578FCFAD061026D4AE2D91 /* Pods-SMSlideTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMSlideTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		82C8E33FF33F4210CDC7A6933C01ACE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CC092FB1C354906B916F68329B7D51F /* Pods-SMSlideTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSlideTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8E06C5CBDD51377CC454B347F632B1CC /* Pods-SMSlideTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSlideTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		920CB6ED2FAA49CB24EB1E8D425ACA09 /* SMSlideTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMSlideTransition.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFBF400268876EF090BCE280A5816AA /* Pods-SMSlideTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMSlideTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A750B7BD59C72E2B029F2FA6F2AAF653 /* BaseAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseAnimator.swift; sourceTree = "<group>"; };
 		AB0C572B4DBA4132A2421F65386D5D7C /* Pods_SMSlideTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMSlideTransition_Example.framework; path = "Pods-SMSlideTransition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC73267AD9B43EB7C4187718A0923849 /* Pods-SMSlideTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SMSlideTransition_Example.modulemap"; sourceTree = "<group>"; };
-		B3A2197A99F5A15D3086E50E96FBEBC4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		B3CFB2BFCE963F253C83061C26D912E2 /* SMSlideTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMSlideTransition-dummy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9A97A386AC8D596E2BF23C3B3E3171B /* SMSlideTransitionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SMSlideTransitionDelegate.swift; sourceTree = "<group>"; };
 		BEEB622A5D05B53D3536F6F20A55EB3C /* Pods-SMSlideTransition_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSlideTransition_Example-resources.sh"; sourceTree = "<group>"; };
-		C799D6BD5B223F43B3B3A33E46E44030 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9934A3C5D07F4BD3FBC450C523F311 /* SMSlideTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SMSlideTransition.modulemap; sourceTree = "<group>"; };
+		D0505845CC37E4FF067C93C57EDC69C8 /* SlideTransitionAnimatorDismiss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideTransitionAnimatorDismiss.swift; sourceTree = "<group>"; };
+		D0996D4F1B70B20713B26B5FF0A77444 /* SMSlideTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMSlideTransition-dummy.m"; sourceTree = "<group>"; };
+		D4993F831BFD70F08CDF236223E9943B /* SMSlideTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMSlideTransition.xcconfig; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE2E0AB20E25D1E1A93095E0DB1A8379 /* SMSlideDismissInteractionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SMSlideDismissInteractionController.swift; sourceTree = "<group>"; };
 		E11BFDCC7C1A86E620BFFA50B6ED5440 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAD9B554E0BC0A41B51E8769E441631B /* SMSlideTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMSlideTransition-prefix.pch"; sourceTree = "<group>"; };
 		EF3B8157BC341B68FC699BD5171CC8C4 /* Pods-SMSlideTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMSlideTransition_Example-umbrella.h"; sourceTree = "<group>"; };
 		EFC217EB08EAD9F20C98F0BD6FCF48D1 /* Pods-SMSlideTransition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMSlideTransition_Tests-resources.sh"; sourceTree = "<group>"; };
+		F8956DFBFAB14A536D2B9ED5A39F0822 /* SlideTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideTransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,50 +95,92 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C4F5BA07DA066BF83270B00D6396A14 /* Frameworks */ = {
+		4B486D82D38C635658FDB6CC722F70B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A874157FDB4AD063B121E2E98218A24 /* Foundation.framework in Frameworks */,
+				E5662DF429A452E54ACC0C934242D0E9 /* Foundation.framework in Frameworks */,
+				F36D9370F06AB68A2A32CF054DFB9E33 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		323E8B42892DA5623DA0F6268B9802F6 /* Development Pods */ = {
+		0750FFC5358B30162D893ABFD61FA8AE /* SMSlideTransition */ = {
 			isa = PBXGroup;
 			children = (
-				729B9850BD17530E2A921F219C099C03 /* SMSlideTransition */,
+				11EF9D721C188DF3788BE6E30C8B78A4 /* Classes */,
 			);
-			name = "Development Pods";
+			name = SMSlideTransition;
+			path = SMSlideTransition;
 			sourceTree = "<group>";
 		};
-		36ABF275F49B803EDB7CA90AB944CDEC /* Classes */ = {
+		11EF9D721C188DF3788BE6E30C8B78A4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B3A2197A99F5A15D3086E50E96FBEBC4 /* ReplaceMe.swift */,
+				F6BB543C81F0F4B03B1C0FF3D1975CD6 /* TransitionAnimator */,
+				CC5DD97C7F123C5AB677537A73991062 /* TransitionDelegate */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		729B9850BD17530E2A921F219C099C03 /* SMSlideTransition */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFE08F1C0AFC76961E3EE73C949FA26A /* SMSlideTransition */,
-				FA994E1D62D4C45E7611BACE9830FEBB /* Support Files */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		52477191C11D5F443CA162C31F0A7D0F /* SMSlideTransition */ = {
+			isa = PBXGroup;
+			children = (
+				0750FFC5358B30162D893ABFD61FA8AE /* SMSlideTransition */,
+				6FF2F2539A361C35E796232D0967345C /* Support Files */,
 			);
 			name = SMSlideTransition;
-			path = ../..;
+			path = /Users/user/Documents/MyPods/SMSlideTransition;
+			sourceTree = "<absolute>";
+		};
+		67D9BDF21427EA6D8F0849730480E158 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52477191C11D5F443CA162C31F0A7D0F /* SMSlideTransition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6FF2F2539A361C35E796232D0967345C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FA24AB54D8755C5626EF41BC4893FAD /* Info.plist */,
+				CC9934A3C5D07F4BD3FBC450C523F311 /* SMSlideTransition.modulemap */,
+				D4993F831BFD70F08CDF236223E9943B /* SMSlideTransition.xcconfig */,
+				D0996D4F1B70B20713B26B5FF0A77444 /* SMSlideTransition-dummy.m */,
+				6A7D9337134D803A6FC04B85F9BC5721 /* SMSlideTransition-prefix.pch */,
+				677BAA1ED4A4784D8FA969A8EE899D18 /* SMSlideTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SMSlideTransition";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				323E8B42892DA5623DA0F6268B9802F6 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				67D9BDF21427EA6D8F0849730480E158 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				E3D5C6508D642F3D569DE448B9CFB234 /* Products */,
 				B992EC1FC9F38EE55CDD45E107D95C37 /* Targets Support Files */,
 			);
@@ -148,15 +204,6 @@
 			path = "Target Support Files/Pods-SMSlideTransition_Tests";
 			sourceTree = "<group>";
 		};
-		AFE08F1C0AFC76961E3EE73C949FA26A /* SMSlideTransition */ = {
-			isa = PBXGroup;
-			children = (
-				36ABF275F49B803EDB7CA90AB944CDEC /* Classes */,
-			);
-			name = SMSlideTransition;
-			path = SMSlideTransition;
-			sourceTree = "<group>";
-		};
 		B992EC1FC9F38EE55CDD45E107D95C37 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,20 +213,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CC5DD97C7F123C5AB677537A73991062 /* TransitionDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				B9A97A386AC8D596E2BF23C3B3E3171B /* SMSlideTransitionDelegate.swift */,
+				DD025D75B138A82E25D9005CAC6B705A /* PresentationAndInteraction */,
 			);
-			name = Frameworks;
+			name = TransitionDelegate;
+			path = TransitionDelegate;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		DD025D75B138A82E25D9005CAC6B705A /* PresentationAndInteraction */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				DE2E0AB20E25D1E1A93095E0DB1A8379 /* SMSlideDismissInteractionController.swift */,
+				32F6A32E028D0C1097396544B0592AD6 /* SMSlidePresentationController.swift */,
+				02C54529EDF7B4D5FBC7D7B87DDC5E0B /* UIPanGesture+Direction.swift */,
 			);
-			name = iOS;
+			name = PresentationAndInteraction;
+			path = PresentationAndInteraction;
 			sourceTree = "<group>";
 		};
 		E3D5C6508D642F3D569DE448B9CFB234 /* Products */ = {
@@ -210,18 +262,15 @@
 			path = "Target Support Files/Pods-SMSlideTransition_Example";
 			sourceTree = "<group>";
 		};
-		FA994E1D62D4C45E7611BACE9830FEBB /* Support Files */ = {
+		F6BB543C81F0F4B03B1C0FF3D1975CD6 /* TransitionAnimator */ = {
 			isa = PBXGroup;
 			children = (
-				C799D6BD5B223F43B3B3A33E46E44030 /* Info.plist */,
-				17E80392C575FF644E03BFD4FDA9BD3C /* SMSlideTransition.modulemap */,
-				920CB6ED2FAA49CB24EB1E8D425ACA09 /* SMSlideTransition.xcconfig */,
-				B3CFB2BFCE963F253C83061C26D912E2 /* SMSlideTransition-dummy.m */,
-				EAD9B554E0BC0A41B51E8769E441631B /* SMSlideTransition-prefix.pch */,
-				17497B3D5DC70C4A30C522E582C90A5B /* SMSlideTransition-umbrella.h */,
+				A750B7BD59C72E2B029F2FA6F2AAF653 /* BaseAnimator.swift */,
+				F8956DFBFAB14A536D2B9ED5A39F0822 /* SlideTransitionAnimator.swift */,
+				D0505845CC37E4FF067C93C57EDC69C8 /* SlideTransitionAnimatorDismiss.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SMSlideTransition";
+			name = TransitionAnimator;
+			path = TransitionAnimator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +324,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 931A0EDA3083E5C45A349356FD16CF44 /* Build configuration list for PBXNativeTarget "SMSlideTransition" */;
 			buildPhases = (
-				54A8931D8D7321F78583507F80DEFF78 /* Sources */,
-				8C4F5BA07DA066BF83270B00D6396A14 /* Frameworks */,
+				CE3C9293F0845C2E3CF81A939513778B /* Sources */,
+				4B486D82D38C635658FDB6CC722F70B3 /* Frameworks */,
 				014916D4D98712396CA03023D8255169 /* Headers */,
 			);
 			buildRules = (
@@ -351,12 +400,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54A8931D8D7321F78583507F80DEFF78 /* Sources */ = {
+		CE3C9293F0845C2E3CF81A939513778B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E1EF0962374DDEAB12A89A76CBEB76 /* ReplaceMe.swift in Sources */,
-				C391FCDB551F3C298A857F57186A49AB /* SMSlideTransition-dummy.m in Sources */,
+				93058CF552ED2DDE46055F17426DA0A9 /* BaseAnimator.swift in Sources */,
+				D0DCBDA4FE975DDA3F8A30CED9C73A91 /* SlideTransitionAnimator.swift in Sources */,
+				63A331813CF9106CAA1735092C839E9F /* SlideTransitionAnimatorDismiss.swift in Sources */,
+				E1BC40E6996DD109170D78051B2928C0 /* SMSlideDismissInteractionController.swift in Sources */,
+				4DEC3B2F71B50BAAE3DA66999AFC54A9 /* SMSlidePresentationController.swift in Sources */,
+				68597C8E0B96A8EECEBBC566B37648CA /* SMSlideTransition-dummy.m in Sources */,
+				68A0E6C87EC008A64220025C0C568BA9 /* SMSlideTransitionDelegate.swift in Sources */,
+				96C393EBA9B3C5C5FDA6BA290D174242 /* UIPanGesture+Direction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,43 +427,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04234F6D991E3CD33E494159652DC41C /* Release */ = {
+		39DB370432837D62D0DD91C554BC98F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 920CB6ED2FAA49CB24EB1E8D425ACA09 /* SMSlideTransition.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SMSlideTransition/SMSlideTransition-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SMSlideTransition/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SMSlideTransition/SMSlideTransition.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SMSlideTransition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3154F8F863FE12949512E72371C53A4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A4F8C88BD0F7C293C015295A3115079 /* Pods-SMSlideTransition_Example.debug.xcconfig */;
+			baseConfigurationReference = 7BEB66ABA6578FCFAD061026D4AE2D91 /* Pods-SMSlideTransition_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -422,30 +443,27 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SMSlideTransition_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSlideTransition_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SMSlideTransition_Example/Pods-SMSlideTransition_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSlideTransition_Tests/Pods-SMSlideTransition_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SMSlideTransition_Example;
+				PRODUCT_NAME = Pods_SMSlideTransition_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -485,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -493,7 +511,7 @@
 			};
 			name = Debug;
 		};
-		5D59FF939FBDF4F4E8B9C92CEC602A56 /* Release */ = {
+		5C64B7B94EAB23DF531F6B14DE599DDB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2AD7C5E7D9F6E8B4A73448E0DCB8EAC2 /* Pods-SMSlideTransition_Example.release.xcconfig */;
 			buildSettings = {
@@ -511,7 +529,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SMSlideTransition_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SMSlideTransition_Example/Pods-SMSlideTransition_Example.modulemap";
@@ -531,9 +549,9 @@
 			};
 			name = Release;
 		};
-		63C656D671699BFE65AC384DC0CB9A67 /* Debug */ = {
+		866914D8E2952CE4233F4550FF23B0DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 920CB6ED2FAA49CB24EB1E8D425ACA09 /* SMSlideTransition.xcconfig */;
+			baseConfigurationReference = D4993F831BFD70F08CDF236223E9943B /* SMSlideTransition.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -550,7 +568,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SMSlideTransition/SMSlideTransition-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SMSlideTransition/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SMSlideTransition/SMSlideTransition.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -566,7 +584,41 @@
 			};
 			name = Debug;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		99F26ECC92AC3EAC3177E7AFD481AAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4993F831BFD70F08CDF236223E9943B /* SMSlideTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMSlideTransition/SMSlideTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMSlideTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMSlideTransition/SMSlideTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SMSlideTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -602,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -610,7 +662,46 @@
 			};
 			name = Release;
 		};
-		D72468E3AED848D3E5E7582C054CFAB8 /* Release */ = {
+		DD7763670466E95833DC9E157E46E766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4F8C88BD0F7C293C015295A3115079 /* Pods-SMSlideTransition_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMSlideTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMSlideTransition_Example/Pods-SMSlideTransition_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMSlideTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9D95B33361B64AD5C37E5BFB28B7AAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D34A47DA550F6BA0A56724BF859A15E /* Pods-SMSlideTransition_Tests.release.xcconfig */;
 			buildSettings = {
@@ -628,7 +719,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SMSlideTransition_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SMSlideTransition_Tests/Pods-SMSlideTransition_Tests.modulemap";
@@ -646,50 +737,14 @@
 			};
 			name = Release;
 		};
-		EA9B4EBF29E0948AFD2B3BB470F21518 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BEB66ABA6578FCFAD061026D4AE2D91 /* Pods-SMSlideTransition_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SMSlideTransition_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SMSlideTransition_Tests/Pods-SMSlideTransition_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SMSlideTransition_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -697,8 +752,8 @@
 		529FA30EC6C93CA402436F81248EF666 /* Build configuration list for PBXNativeTarget "Pods-SMSlideTransition_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA9B4EBF29E0948AFD2B3BB470F21518 /* Debug */,
-				D72468E3AED848D3E5E7582C054CFAB8 /* Release */,
+				39DB370432837D62D0DD91C554BC98F4 /* Debug */,
+				E9D95B33361B64AD5C37E5BFB28B7AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -706,8 +761,8 @@
 		931A0EDA3083E5C45A349356FD16CF44 /* Build configuration list for PBXNativeTarget "SMSlideTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63C656D671699BFE65AC384DC0CB9A67 /* Debug */,
-				04234F6D991E3CD33E494159652DC41C /* Release */,
+				866914D8E2952CE4233F4550FF23B0DB /* Debug */,
+				99F26ECC92AC3EAC3177E7AFD481AAD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -715,8 +770,8 @@
 		FFFC891CC2A771141EFF49B147A66AB0 /* Build configuration list for PBXNativeTarget "Pods-SMSlideTransition_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3154F8F863FE12949512E72371C53A4D /* Debug */,
-				5D59FF939FBDF4F4E8B9C92CEC602A56 /* Release */,
+				DD7763670466E95833DC9E157E46E766 /* Debug */,
+				5C64B7B94EAB23DF531F6B14DE599DDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
